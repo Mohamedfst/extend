@@ -1,0 +1,12 @@
+{
+	"apps" : [{
+		"name": "tangible-api",
+		"script": "./bin/starter.js",
+		"watch": true,
+		"error_file": "/var/log/tangible-api/tangible-api.log",
+		"out_file": "/var/log/tangible-api/tangible-api.log",
+		"env": {
+			"NODE_ENV": "production"
+		}
+	}]
+}
